@@ -1,3 +1,7 @@
-def shuffle arr
-  # your code here
-end
+def shuffle(list)
+
+    return list.shuffle
+
+  end
+
+  puts shuffle(["about","mate","time","innit"])
