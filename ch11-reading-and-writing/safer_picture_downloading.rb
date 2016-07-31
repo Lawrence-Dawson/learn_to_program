@@ -6,10 +6,10 @@ puts 'What would you like to call this batch?'
 batch_name = gets.chomp
 
 
-#if pic_names = 0
-#  puts 'No files found'
-#  exit
-#end
+if pic_names == []
+  puts 'No files found in search directory'
+  exit
+end
 
 puts
 print "Downloading #{pic_names.length} files:   "
