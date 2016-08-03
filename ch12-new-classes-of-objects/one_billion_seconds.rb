@@ -1,6 +1,6 @@
 time_now = Time.now
 
-my_birth = Time.local(1987,8,2,18,00)
+my_birth = Time.local(1995,3,25,21,00)
 
 how_long_ago = time_now - my_birth
 seconds_to_bill = 1_000_000_000 - how_long_ago
@@ -9,7 +9,7 @@ hours = seconds_to_bill / (60 * 60)
 minutes = (seconds_to_bill / 60) % 60
 seconds = seconds_to_bill % 60
 days = hours / 24
-actual_day = (Time.local(1987,8,2,18,00) + 10**9)
+actual_day = (Time.local(1995,3,25,21,00) + 10**9)
 
 puts
 puts 'I was born ' +  my_birth.to_s
